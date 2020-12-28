@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+section {
+  padding-top: 35px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+img {
+  vertical-align: middle;
+}
+.section-title {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #374785;
+  text-underline-offset: 3px;
+  width: 100%;
+}
+.section-subtitle {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  color: #6c757d;
+  font-size: xx-large;
+}
+/* Intro Banner */
+.banner {
+  background: url('https://i.pinimg.com/originals/79/49/62/794962ec5b6392dee0ad3eba451c7f56.jpg') no-repeat top center !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  min-height: 720px;
+  display: table;
+  position: relative;
+}
+/* About section */
+/* #aboutme {
+  background-color: #d5edfa;
+} */
+.about {
+  font-size: x-large;
+}
+
+/* Experience section */
+#work-education {
+  background-color: #d5edfa;
+}
+.rounded-circle {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border-style: solid;
+  border-color:orange;
+  border-width: 1px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Technology section */
+.card {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.card-img-top {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+/* Projects */
+.custom-card {
+  color: inherit;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40!important;
+  color: #fff;
+}
+.light {
+  color: #fff;
+}
+.btn:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+}
